@@ -3,13 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Alex Geer Portfolio</title>
 </head>
 <body>
     <header>
+        <div class="profile">
+            <figure class="profile__image">
+                <img src="./assets/images/profile.jpg" alt="Site author with guinea pig">
+            </figure>
+            <h1>Alex Geer</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Resume</a></li>
+            </ul>
+
+            <h3>
+                <span class="navigation__icon">&nbsp;</span>
+            </h3>
+        </nav>
         
     </header>
     <main>
+        <section class="row" id="about">
+            <div class="row__box row__heading">
+                <h2>About</h2>
+            </div>
+            
+            <div class="row__box">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid eos non pariatur, eligendi, incidunt soluta veniam, porro cupiditate maxime cumque quidem ab. Quaerat cum provident voluptatum eius commodi ipsum fugit.</p>
+            </div>
+        </section>
+
+        <section class="row" id="work">
+            <div class="row__box row__heading">
+                <h2>Work</h2>
+            </div>
+            
+            <div class="row__box row__content">
+                <figure class="full-figure">
+                    <a href="https://pinnaclesolarenergy.com/">
+                        <img src="./assets/images/work-1.jpg" alt="Screenshot of Pinnacle Solar website">
+                    </a>
+                    <figcaption>Pinnacle Solar</figcaption>
+                </figure>
+                <figure>
+                    <a href="https://votedavidgs.com/">
+                        <img src="./assets/images/work-2.jpg" alt="Screenshot of David Greenwood-Sanchez campaign website">
+                    </a>
+                    <figcaption>David Greenwood-Sanchez</figcaption>
+                </figure>
+                <figure>
+                    <a href="https://agdesignz.github.io/dkgLandscaping_Sass/">
+                        <img src="./assets/images/work-3.jpg" alt="Screenshot of DKG landscaping website">
+                    </a>
+                    <figcaption>DKG Landscaping</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="row" id="contact">
+            <div class="row__box row__heading">
+                <h2>Contact</h2>
+            </div>
+            <div class="row__box row__content">
+                <a href="#">alex@alexgeerart.com</a>
+                <a href="#">(800) 325 3535</a>
+                <a href="#">Github</a>
+                <a href="#">Linkedin</a>
+            </div>
+        </section>
 
     </main>
     <footer>
